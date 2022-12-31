@@ -1,0 +1,19 @@
+/***HAPPY NEW YEAR***/
+import happiness;
+import health;
+import wealth;
+
+public class Geek
+{
+      time =  "Begin 2023";
+      while (time <= "End 2022")
+      {
+          push(love);
+          push(joy);
+          push(happiness);
+          push(prosperity);
+          time++;
+      }
+       if(bad_memories == 1)
+       pop(all);
+    System.out.println("Wish you a very happy and prosperous New Year");}
