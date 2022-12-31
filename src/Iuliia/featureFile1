@@ -1,0 +1,9 @@
+ List<String> names2 = new ArrayList<>();
+        names.addAll(
+                Arrays.asList("Java","Python","Cydeo","Car","Level","civic","radar","kayak","racecar","madam")
+        );
+                                         //using StringBuilder
+        //names2.removeIf( p -> new StringBuilder(p).reverse().toString().equalsIgnoreCase(p));
+                                         //using custom method
+         names2.removeIf( p -> StringUtility.reverse(p).equalsIgnoreCase(p));
+        System.out.println(names2);
